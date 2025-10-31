@@ -24,7 +24,7 @@ const [count, setCount] = useState(0)
 
       <div className="flex flex-wrap justify-center gap-6 px-10 py-8 bg-gray-100">
            {products.map(function(pro){
-  return <Card image={pro.image} name={pro.name} description={pro.description} price={pro.price}/>
+  return <Card image={pro.image} name={pro.name} description={pro.description} priceCents={pro.priceCents}/>
 })}
       </div>
    
